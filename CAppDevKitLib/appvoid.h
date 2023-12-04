@@ -1,19 +1,29 @@
 #ifndef _APP_VOID_H_
 #define _APP_VOID_H_
 
-#include "appcustomvar.h"
-#include "../Lib/forc/cdefined.h"
-#include "../CAppDevKitInfoLib/cappdevkitinfo.h"
 #include "../Lib/customdefine.h"
+#include "../CAppDevKitInfoLib/cappdevkitinfo.h"
+#include "../Lib/forc/cdefined.h"
 
-afunc appinfo(app_name appname, app_ver_t appver, app_rs_date apprs, app_lsup_date applsdate, app_developer_name appdevname, app_developer_website appdevwsite)
+afunc appinfo(app_info_dialog appdialog_appname,
+app_info_dialog appdialog_appversion,
+app_info_dialog appdialog_apprsdate,
+app_info_dialog appdialog_appls,
+app_info_dialog appdialog_appdv,
+app_info_dialog appdialog_appdvwebsite,
+app_name appname,
+app_ver_t appver,
+app_rs_date apprs,
+app_lsup_date applsdate,
+app_developer_name appdevname,
+app_developer_website appdevwsite)
 {
-    printf("AppName: %s\n", appname);
-    printf("AppVersion: %f\n", appver);
-    printf("AppRsDate: %s\n", apprs);
-    printf("AppLastUpdatedDate: %s\n", applsdate);
-    printf("AppDeveloper: %s\n", appdevname);
-    printf("AppDevWebSite: %s\n", appdevwsite);
+    printf("%s %s\n", appdialog_appname,appname);
+    printf("%s %f\n", appdialog_appversion,appver);
+    printf("%s %s\n", appdialog_apprsdate,apprs);
+    printf("%s %s\n", appdialog_appls,applsdate);
+    printf("%s %s\n", appdialog_appdv,appdevname);
+    printf("%s %s\n", appdialog_appdvwebsite,appdevwsite);
 }
 
 afunc cappdevkit_info()
@@ -36,9 +46,25 @@ afunc cappdevkit_info()
     printf("CAppDevKitWebSite: %s\n", CAppDevKitI.appdevswebsite);
 }
 
-afunc app_exit()
+afunc app_exit(_i x)
 {
-    exit(0);
+    exit(x);
+}
+
+afunc app_exit_msg(app_msg exit_msg, _i maxtime)
+{
+    _i time;
+
+    printf("%s\n", exit_msg);
+
+    for (_i i = 0; i < maxtime; i++)
+    {
+        time=i;
+        if (time < maxtime)
+        {
+            app_exit(0);
+        }
+    }
 }
 
 #endif

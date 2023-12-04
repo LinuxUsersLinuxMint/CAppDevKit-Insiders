@@ -1,7 +1,7 @@
 #ifndef _C_DEFINED_H_
 #define _C_DEFINED_H_
 
-#include <CAppDevKit/CAppDevKitLib/appcustomvar.h> 
+#include "../CAppDevKitLib/appcustomvar.h"
 
 #define afunc    void
 #define afunc app_func
@@ -25,7 +25,7 @@ st cdefine
 {
     #define clib_define_name    "cdefined"
     #define clib_file_ext       ".h"
-    #define clib_ver            "1.5"
+    #define clib_ver            "2.0"
 } cdef;
 
 st cdefine cdef;
