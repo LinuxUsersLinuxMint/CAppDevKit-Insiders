@@ -5,13 +5,13 @@
 #include "../Lib/forc/cdefined.h"
 #include "../Lib/customdefine.h"
 
-#define C_LIB_NAME      "CAppDevKit - Insiders"
-#define C_APP_DEV_KIT   "CAppDevKit - Insiders (C App Developer Kit)"
-#define CAppDevKit_Ver   2.0
-#define CAppDevKit_RS_Date  "11/24/2023"
-#define CAppDevKit_LAST_UPDATED_DATE    "12/03/2023"
-#define CAppDevKit_Developer_Name   "@LinuxUsersLinuxMint"
-#define CAppDevKit_Developer_website    "https://linuxuserslinuxmint.github.io"
+#define CLIB_NAME      "CAppDevKit - Insiders"
+#define CADK   "CAppDevKit - Insiders (C App Developer Kit)"
+#define CADK_Ver   2.1
+#define CADK_RS_Date  "11/24/2023"
+#define CADK_LAST_UPDATED_DATE    "12/09/2023"
+#define CADK_Developer_Name   "@LinuxUsersLinuxMint"
+#define CADK_Developer_website    "https://linuxuserslinuxmint.github.io"
 
 st CAppDevKitInfo
 {

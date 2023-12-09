@@ -29,12 +29,16 @@ using namespace std;
 #define _c      char
 #define _cc     const char
 #define _co     const
+#define _b      bool
+#define _str    string
 
 #define _ci     _co _i
 #define _csi    _co _si
 #define _cli    _co _li
 #define _cd     _co _d
 #define _cf     _co _f
+#define _cb     _co _b
+#define _cstr    _co _str
 
 #define tdef                    typedef
 #define tdef_i                  tdef _i
@@ -50,6 +54,8 @@ using namespace std;
 #define tdef_cli                tdef _cli
 #define tdef_cd                 tdef _cd
 #define tdef_cf                 tdef _cf
+#define tdef_b                  tdef _b
+#define tdef_str                tdef _str
 #define tdefv                   tdef v
 
 #endif

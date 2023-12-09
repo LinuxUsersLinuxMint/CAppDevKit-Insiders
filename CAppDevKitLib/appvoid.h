@@ -26,16 +26,16 @@ app_developer_website appdevwsite)
     printf("%s %s\n", appdialog_appdvwebsite,appdevwsite);
 }
 
-afunc cappdevkit_info()
+afunc cadk_i()
 {
     st CAppDevKitInfo CAppDevKitI;
-    CAppDevKitI.clibname = C_LIB_NAME;
-    CAppDevKitI.cappdevkit = C_APP_DEV_KIT;
-    CAppDevKitI.cappdevkitver = CAppDevKit_Ver;
-    CAppDevKitI.cappreleasedate = CAppDevKit_RS_Date;
-    CAppDevKitI.capplsupdate = CAppDevKit_LAST_UPDATED_DATE;
-    CAppDevKitI.appdevsname = CAppDevKit_Developer_Name;
-    CAppDevKitI.appdevswebsite = CAppDevKit_Developer_website;
+    CAppDevKitI.clibname = CLIB_NAME;
+    CAppDevKitI.cappdevkit = CADK;
+    CAppDevKitI.cappdevkitver = CADK_Ver;
+    CAppDevKitI.cappreleasedate = CADK_RS_Date;
+    CAppDevKitI.capplsupdate = CADK_LAST_UPDATED_DATE;
+    CAppDevKitI.appdevsname = CADK_Developer_Name;
+    CAppDevKitI.appdevswebsite = CADK_Developer_website;
 
     printf("CAppDevKitName: %s\n", CAppDevKitI.clibname);
     printf("CAppDevKit: %s\n", CAppDevKitI.cappdevkit);

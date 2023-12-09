@@ -17,8 +17,12 @@ _cc en_letters[MAX_EN_LETTERS_SIZE] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', '
 _cc lower_tr_letters[MAX_TR_LETTERS_SIZE] = {'a', 'b', 'c', 'ç', 'd', 'e', 'f', 'g', 'ğ', 'h', 'ı', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'ö', 'p', 'r', 's', 'ş', 't', 'u', 'ü', 'v', 'y', 'z'};
 _cc lower_en_letters[MAX_EN_LETTERS_SIZE] = {'a' , 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'ı', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
+#define SCR_START   0xb8000 // screen start address
+
 // List of BIOS Color Attributes
 // link: https://en.wikipedia.org/wiki/BIOS_color_attributes
+
+
 
 #define VGA_COLOR_BLACK     0x0
 #define VGA_COLOR_BLUE      0x1

@@ -8,6 +8,9 @@ chmod a+x CAppDevKit/CAppDevKitInfoLib/cappdevkitinfo.h
 cp CAppDevKitLib/appcustomvar.h CAppDevKit/CAppDevKitLib/
 chmod a+x CAppDevKit/CAppDevKitLib/appcustomvar.h
 
+cp CAppDevKitLib/cppappcustomvar.hpp CAppDevKit/CAppDevKitLib/
+chmod a+x CAppDevKit/CAppDevKitLib/cppappcustomvar.hpp
+
 cp CAppDevKitLib/appvoid.h CAppDevKit/CAppDevKitLib/
 chmod a+x CAppDevKit/CAppDevKitLib/appvoid.h
 
