@@ -28,7 +28,7 @@ _i main()
     }
     else if (process == 2)
     {
-        cappdevkit_info();
+        cadk_i();
     }
     else if (process == 3)
     {
