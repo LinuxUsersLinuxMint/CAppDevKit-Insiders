@@ -7,7 +7,6 @@
 
 #include <iostream>
 #include "../ForCpp/cppdefined.hpp"
-
 uns
 
 _i numbers[MAX_NUMBERS_SIZE] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -43,7 +42,7 @@ _cc lower_en_letters[MAX_EN_LETTERS_SIZE] = {'a' , 'b', 'c', 'd', 'e', 'f', 'g',
 
 // structures
 
-struct vcl // vga color list
+st vcl // vga color list
 {
     _i vcb; // black
     _i vcbl; // blue
@@ -94,7 +93,7 @@ en vgcl vgclist;
 
 // 12-Bit/15-bit 4096-color palette
 
-namespace vga_color_palette
+ns vga_color_palette
 {
     #define VGA_COLOR_PALETTE_0     0x00
     #define VGA_COLOR_PALETTE_1     0x01

@@ -58,4 +58,13 @@ using namespace std;
 #define tdef_str                tdef _str
 #define tdefv                   tdef v
 
+#define v       void
+#define f       v
+#define function    f
+#define func        f
+#define fun         f
+#define def         v
+#define V           v
+#define F           f
+
 #endif

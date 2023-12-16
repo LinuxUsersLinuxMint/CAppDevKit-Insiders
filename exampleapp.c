@@ -19,7 +19,7 @@ _i main()
             "App Developer Name:",
             "App Developer Web Site:",
             "CADKProject",
-            2.1,
+            "2.1.1",
             "11/24/2023",
             "12/09/2023",
             "@LinuxUsersLinuxMint",

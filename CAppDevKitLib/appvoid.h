@@ -5,28 +5,28 @@
 #include "../CAppDevKitInfoLib/cappdevkitinfo.h"
 #include "../Lib/forc/cdefined.h"
 
-afunc appinfo(app_info_dialog appdialog_appname,
+appfunc appinfo(app_info_dialog appdialog_appname,
 app_info_dialog appdialog_appversion,
 app_info_dialog appdialog_apprsdate,
 app_info_dialog appdialog_appls,
 app_info_dialog appdialog_appdv,
 app_info_dialog appdialog_appdvwebsite,
 app_name appname,
-app_ver_t appver,
+app_name appvers,
 app_rs_date apprs,
 app_lsup_date applsdate,
 app_developer_name appdevname,
 app_developer_website appdevwsite)
 {
     printf("%s %s\n", appdialog_appname,appname);
-    printf("%s %f\n", appdialog_appversion,appver);
+    printf("%s %s\n", appdialog_appversion,appvers);
     printf("%s %s\n", appdialog_apprsdate,apprs);
     printf("%s %s\n", appdialog_appls,applsdate);
     printf("%s %s\n", appdialog_appdv,appdevname);
     printf("%s %s\n", appdialog_appdvwebsite,appdevwsite);
 }
 
-afunc cadk_i()
+appfunc cadk_i()
 {
     st CAppDevKitInfo CAppDevKitI;
     CAppDevKitI.clibname = CLIB_NAME;
@@ -39,19 +39,19 @@ afunc cadk_i()
 
     printf("CAppDevKitName: %s\n", CAppDevKitI.clibname);
     printf("CAppDevKit: %s\n", CAppDevKitI.cappdevkit);
-    printf("CAppDevKitVer: %f\n", CAppDevKitI.cappdevkitver);
+    printf("CAppDevKitVer: %s\n", CAppDevKitI.cappdevkitver);
     printf("CAppDevKitReleaseDate: %s\n", CAppDevKitI.cappreleasedate);
     printf("CAppDevKitLastUpdatedDate: %s\n", CAppDevKitI.capplsupdate);
     printf("CAppDevName: %s\n", CAppDevKitI.appdevsname);
     printf("CAppDevKitWebSite: %s\n", CAppDevKitI.appdevswebsite);
 }
 
-afunc app_exit(_i x)
+appfunc app_exit(_i x)
 {
     exit(x);
 }
 
-afunc app_exit_msg(app_msg exit_msg, _i maxtime)
+/*afunc app_exit_msg(app_msg exit_msg, _i maxtime)
 {
     _i time;
 
@@ -65,6 +65,6 @@ afunc app_exit_msg(app_msg exit_msg, _i maxtime)
             app_exit(0);
         }
     }
-}
+}*/
 
 #endif

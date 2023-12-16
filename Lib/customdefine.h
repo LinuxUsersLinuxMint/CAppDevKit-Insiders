@@ -8,24 +8,24 @@
 // func keywords
 
 #define v   void
-#define f   void
-#define function    void
-#define func        void
-#define fun         void
-#define def         void
+#define f   v
+#define function    f
+#define func        f
+#define fun         f
+#define def         v
 #define V           v
 #define F           f
 
 // Data Types keywords
 
 #define _i      int
-#define _si     short int
-#define _li     long int
+#define _si     short _i
+#define _li     long _i
 #define _d      double
 #define _f      float
 #define _c      char
-#define _cc     const char
 #define _co     const
+#define _cc     _co _c
 
 #define _ci     _co _i
 #define _csi    _co _si

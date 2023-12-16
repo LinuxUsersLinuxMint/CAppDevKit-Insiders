@@ -7,16 +7,15 @@
 
 #define CLIB_NAME      "CAppDevKit - Insiders"
 #define CADK   "CAppDevKit - Insiders (C App Developer Kit)"
-#define CADK_Ver   2.1
+#define CADK_Ver   "2.1.1"
 #define CADK_RS_Date  "11/24/2023"
-#define CADK_LAST_UPDATED_DATE    "12/09/2023"
+#define CADK_LAST_UPDATED_DATE    "12/16/2023"
 #define CADK_Developer_Name   "@LinuxUsersLinuxMint"
 #define CADK_Developer_website    "https://linuxuserslinuxmint.github.io"
 
 st CAppDevKitInfo
 {
-    app_name clibname, cappdevkit;
-    app_ver_t cappdevkitver;
+    app_name clibname, cappdevkit, cappdevkitver;
     app_rs_date cappreleasedate;
     app_lsup_date capplsupdate;
     app_developer_name appdevsname;
