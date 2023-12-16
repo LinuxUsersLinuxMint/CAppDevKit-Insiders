@@ -5,5 +5,6 @@ mkdir CAppDevKit/CAppDevKitLib
 mkdir CAppDevKit/Lib
 mkdir CAppDevKit/FastVar
 mkdir CAppDevKit/ForCpp
-mdkir CAppDevKit/Lib/forc
+mkdir CAppDevKit/Lib/forc
+mkdir CAppDevKit/CAppDevKitFunc
 chmod a+x CAppDevKit

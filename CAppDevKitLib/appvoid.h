@@ -18,12 +18,12 @@ app_lsup_date applsdate,
 app_developer_name appdevname,
 app_developer_website appdevwsite)
 {
-    printf("%s %s\n", appdialog_appname,appname);
-    printf("%s %s\n", appdialog_appversion,appvers);
-    printf("%s %s\n", appdialog_apprsdate,apprs);
-    printf("%s %s\n", appdialog_appls,applsdate);
-    printf("%s %s\n", appdialog_appdv,appdevname);
-    printf("%s %s\n", appdialog_appdvwebsite,appdevwsite);
+    p("%s %s\n", appdialog_appname,appname);
+    p("%s %s\n", appdialog_appversion,appvers);
+    p("%s %s\n", appdialog_apprsdate,apprs);
+    p("%s %s\n", appdialog_appls,applsdate);
+    p("%s %s\n", appdialog_appdv,appdevname);
+    p("%s %s\n", appdialog_appdvwebsite,appdevwsite);
 }
 
 appfunc cadk_i()
@@ -37,13 +37,13 @@ appfunc cadk_i()
     CAppDevKitI.appdevsname = CADK_Developer_Name;
     CAppDevKitI.appdevswebsite = CADK_Developer_website;
 
-    printf("CAppDevKitName: %s\n", CAppDevKitI.clibname);
-    printf("CAppDevKit: %s\n", CAppDevKitI.cappdevkit);
-    printf("CAppDevKitVer: %s\n", CAppDevKitI.cappdevkitver);
-    printf("CAppDevKitReleaseDate: %s\n", CAppDevKitI.cappreleasedate);
-    printf("CAppDevKitLastUpdatedDate: %s\n", CAppDevKitI.capplsupdate);
-    printf("CAppDevName: %s\n", CAppDevKitI.appdevsname);
-    printf("CAppDevKitWebSite: %s\n", CAppDevKitI.appdevswebsite);
+    p("CAppDevKitName: %s\n", CAppDevKitI.clibname);
+    p("CAppDevKit: %s\n", CAppDevKitI.cappdevkit);
+    p("CAppDevKitVer: %s\n", CAppDevKitI.cappdevkitver);
+    p("CAppDevKitReleaseDate: %s\n", CAppDevKitI.cappreleasedate);
+    p("CAppDevKitLastUpdatedDate: %s\n", CAppDevKitI.capplsupdate);
+    p("CAppDevName: %s\n", CAppDevKitI.appdevsname);
+    p("CAppDevKitWebSite: %s\n", CAppDevKitI.appdevswebsite);
 }
 
 appfunc app_exit(_i x)

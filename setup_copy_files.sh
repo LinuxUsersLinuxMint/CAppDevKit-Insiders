@@ -1,6 +1,4 @@
 #!/usr/bin/sh
-cp exampleapp.c CAppDevKit/
-chmod a+x CAppDevKit/
 
 cp CAppDevKitInfoLib/cappdevkitinfo.h CAppDevKit/CAppDevKitInfoLib/
 chmod a+x CAppDevKit/CAppDevKitInfoLib/cappdevkitinfo.h
@@ -25,3 +23,6 @@ chmod a+x CAppDevKit/FastVar/cppfastvar.hpp
 
 cp ForCpp/cppdefined.hpp CAppDevKit/ForCpp/
 chmod a+x CAppDevKit/ForCpp/cppdefined.hpp
+
+cp CAppDevKitFunc/cppfunc.hpp CAppDevKit/CAppDevKitFunc/
+chmod a+x CAppDevKit/CAppDevKitFunc/cppfunc.hpp
