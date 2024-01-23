@@ -5,11 +5,12 @@
 using namespace std;
 
 #define use     using
+#define ns     namespace
 #define cl      class
 #define pb      public:
 #define pr      private:
 #define ptc     protected:
-#define uns     using namespace std;
+#define uns     use ns std;
 #define ct      cout
 #define cn      cin
 #define ed     endl
@@ -17,17 +18,17 @@ using namespace std;
 #define st     struct
 #define en     enum
 #define ui     union
-#define ns     namespace
+
 #define tmp   template
 #define ty    typename
 
 #define _i      int
-#define _si     short int
-#define _li     long int
+#define _si     short _i
+#define _li     long _i
 #define _d      double
 #define _f      float
 #define _c      char
-#define _cc     const char
+#define _cc     const _c
 #define _co     const
 #define _b      bool
 #define _str    string

@@ -22,9 +22,9 @@ _i main()
             "App Developer Name:",
             "App Developer Web Site:",
             "CADKProject",
-            "2.2",
+            "2.3",
             "11/24/2023",
-            "12/16/2023",
+            "01/23/2024",
             "@LinuxUsersLinuxMint",
             "https://linuxuserslinuxmint.github.io"
         );
